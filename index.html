@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz - Selectores CSS</h1>
+    </header>
+    <div class="container">
+        <section id="p0">
+            <h3>1) ¿Qué es un selector de clase en CSS?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Turin
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> napoles
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Un selector de clase en CSS selecciona todos los elementos que tienen una clase específica asignada. Por ejemplo, el selector ".mi-clase" selecciona todos los elementos con la clase "mi-clase"
+            </label>
+        </section>
+        <section id="p1">
+            <h3>2) ¿Qué son los selectores CSS?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Los selectores CSS son patrones que se utilizan para seleccionar elementos específicos de una página web para aplicar estilos o efectos
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> napoles
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> roma
+            </label>
+        </section>
+        <section id="p2">
+            <h3>3) ¿Qué es un selector de ID en CSS?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Turin
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Un selector de ID en CSS selecciona un elemento específico que tiene un ID único asignado. Por ejemplo, el selector "#mi-id" selecciona el elemento con el ID "mi-id"
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> roma
+            </label>
+        </section>
+        <section id="p3">
+            <h3>4) ¿Cuáles son los tipos de selectores CSS más comunes?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Turin
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Los selectores CSS más comunes son: selectores de tipo, selectores de clase, selectores de ID, selectores de atributos y selectores combinados
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> roma
+            </label>
+        </section>
+        <section id="p4">
+            <h3>5) ¿Qué es un selector de tipo en CSS?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Turin
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Los selectores CSS más comunes son: selectores de tipo, selectores de clase, selectores de ID, selectores de atributos y selectores combinados
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Un selector de tipo en CSS selecciona todos los elementos de un cierto tipo en una página web. Por ejemplo, el selector de tipo "p" selecciona todos los párrafos en la página
+            </label>
+        </section>
+        <button onclick="corregir()">CORREGIR</button>
+        <h2>Cantidad acertada: <span id="resultado"></span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
